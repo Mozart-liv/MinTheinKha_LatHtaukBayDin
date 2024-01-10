@@ -1,0 +1,93 @@
+header{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+header span{
+    margin-left: 5px;
+    font-size: 30px;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+main #search{
+    text-align: end;
+}
+main #search input{
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.container .question{
+    display: flex;
+    align-items: center;
+    border: 1px solid #a71d19;
+    border-radius: 10px;
+    padding:0px 10px;
+    margin: 10px;
+    width: 550px;
+}
+
+h2{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 750px;
+    margin: auto;
+}
+.container2 .number{
+    margin: 15px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #a71d19;
+    background-color: #a71d19;
+    color: white;
+    padding: 15px;
+}
+
+.question span{
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.card{
+    width: 600px;
+    padding: 20px;
+    margin: auto;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.349);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.card p{
+    font-size: 30px;
+}
+.card button{
+    border: 1px solid #a71d19;
+    background-color: #a71d19;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+}
